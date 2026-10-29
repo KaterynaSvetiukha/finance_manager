@@ -1,0 +1,23 @@
+{
+    "users": {
+      "katia@gmail.com": {
+        "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+        "budget": 0
+      },
+      "ivan@gmail.com": {
+        "password": "5994471abf01112afcc18549f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+        "budget": 5000
+      }
+    },
+
+    "transactions": {
+      "katia@gmail.com": [
+        {"amount": 500, "category": "їжа"},
+        { "amount": 1000, "category": "одяг" }
+      ],
+      "ivan@gmail.com": [
+        {"amount": 500, "category": "їжа"},
+        { "amount": 1000, "category": "одяг" }
+      ]
+    }
+}
