@@ -59,7 +59,7 @@ def login():
 
     if login in db['users']:
         password = hash_password(password)
-        if password in db['users'][login][password]:
+        if password in db['users'][login]['password']: # виправити назву ключа
             current_user = login
             print('Ласкаво просимо!')
             return
